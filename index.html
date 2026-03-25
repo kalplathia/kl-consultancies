@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KL Consultancies</title>
+  <meta name="description" content="KL Consultancies empowers businesses with technology-driven solutions for optimal growth and innovation. Discover our consulting services today." />
+  
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="KL Consultancies" />
+  <meta property="og:description" content="KL Consultancies empowers businesses with technology-driven solutions for optimal growth and innovation. Discover our consulting services today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="KL Consultancies" />
+  
+  <meta property="og:image" content="https://storage.googleapis.com/website-builder-system.firebasestorage.app/logos/1774381902634-80ojqg.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="KL Consultancies" />
+  <meta name="twitter:description" content="KL Consultancies empowers businesses with technology-driven solutions for optimal growth and innovation. Discover our consulting services today." />
+  <meta name="twitter:image" content="https://storage.googleapis.com/website-builder-system.firebasestorage.app/logos/1774381902634-80ojqg.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            sans: ['"Inter"', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+
+    /* Scroll Reveal */
+    .sr-hidden {
+      opacity: 0;
+      transition-property: opacity, transform;
+      transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+      transition-duration: 700ms;
+    }
+    .sr-hidden[data-sr-direction="up"] { transform: translateY(28px); }
+    .sr-hidden[data-sr-direction="left"] { transform: translateX(-28px); }
+    .sr-hidden[data-sr-direction="right"] { transform: translateX(28px); }
+    .sr-hidden[data-sr-direction="scale"] { transform: scale(0.94); }
+    .sr-visible {
+      opacity: 1 !important;
+      transform: translate(0, 0) scale(1) !important;
+    }
+
+    /* SVG Animations */
+    @keyframes blob-float {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      33% { transform: translate(12px, -18px) rotate(2deg); }
+      66% { transform: translate(-10px, 12px) rotate(-1.5deg); }
+    }
+    @keyframes blob-float-reverse {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      33% { transform: translate(-14px, 12px) rotate(-2deg); }
+      66% { transform: translate(10px, -10px) rotate(1.5deg); }
+    }
+    @keyframes dash-flow {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 28; }
+    }
+    .animate-blob-float { animation: blob-float 22s ease-in-out infinite; }
+    .animate-blob-float-reverse { animation: blob-float-reverse 26s ease-in-out infinite; }
+    .animate-dash-flow { animation: dash-flow 4s linear infinite; }
+
+    /* Prose styling for privacy/terms */
+    .prose h2 { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-weight: 700; color: #111827; letter-spacing: -0.01em; font-size: 1.5rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .prose h3 { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-weight: 700; color: #111827; font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .prose p { color: #4b5563; line-height: 1.75; margin-bottom: 1rem; }
+    .prose ul { color: #4b5563; padding-left: 1.5rem; margin-bottom: 1rem; }
+    .prose li { margin-bottom: 0.25rem; }
+    .prose a { color: #7c3aed; text-decoration: none; }
+    .prose a:hover { text-decoration: underline; }
+    .prose strong { color: #111827; }
+
+    /* Header transitions */
+    .header-scrolled {
+      background: rgba(255, 255, 255, 0.7) !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 8px 24px rgba(124,58,237,0.03) !important;
+      border-bottom-color: rgba(229, 231, 235, 0.5) !important;
+    }
+
+    /* Mobile menu animation */
+    .mobile-menu-enter {
+      animation: fadeSlideDown 200ms ease-out;
+    }
+    @keyframes fadeSlideDown {
+      from { opacity: 0; transform: translateY(-8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "KL Consultancies",
+    "description": "KL Consultancies is a dynamic IT services and consulting firm focused on helping businesses transform, optimize, and scale through technology-driven solutions. The company specializes in delivering end-to-end IT and business consulting services tailored to meet the evolving needs of modern enterprises.
+
+With a strong emphasis on innovation and operational efficiency, KL Consultancies works closely with clients to analyze existing processes, identify improvement areas, and implement scalable technology solutions that drive measurable results. Their expertise spans across software development, IT project management, cloud integration, and digital transformation initiatives.
+
+The organization adopts a client-centric and collaborative approach, ensuring that every solution is aligned with business goals and delivers long-term value. By leveraging modern technologies and industry best practices, KL Consultancies enables organizations—from startups to growing enterprises—to enhance productivity, streamline workflows, and stay competitive in a rapidly changing digital landscape.",
+    "logo": "https://storage.googleapis.com/website-builder-system.firebasestorage.app/logos/1774381902634-80ojqg.png",
+    "email": "kalplathia101@gmail.com",
+    "telephone": "9727373866"
+  }
+  </script>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+  <div class="min-h-screen flex flex-col">
+    <header id="site-header" class="sticky top-0 z-50 transition-all duration-300 backdrop-blur-xl" style="backdrop-filter: blur(24px) saturate(1.8); -webkit-backdrop-filter: blur(24px) saturate(1.8); background: rgba(255,255,255,0.4); border-bottom: 1px solid transparent;">
+      <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        <a href="./index.html" class="flex items-center gap-2.5 group no-underline">
+            <img src="https://storage.googleapis.com/website-builder-system.firebasestorage.app/logos/1774381902634-80ojqg.png" alt="KL Consultancies" width="32" height="32" class="rounded-lg" />
+          <span class="font-bold text-gray-900 text-[15px]" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">KL Consultancies</span>
+        </a>
+    
+        <nav class="hidden md:flex items-center gap-1">
+          <a href="./index.html" class="relative px-4 py-2 text-sm font-medium rounded-lg transition-colors no-underline text-gray-900 bg-gray-100/70">
+            Home
+          </a>
+          <a href="./about.html" class="relative px-4 py-2 text-sm font-medium rounded-lg transition-colors no-underline text-gray-500 hover:text-gray-900 hover:bg-gray-50">
+            About
+          </a>
+          <a href="./contact.html" class="relative px-4 py-2 text-sm font-medium rounded-lg transition-colors no-underline text-gray-500 hover:text-gray-900 hover:bg-gray-50">
+            Contact
+          </a>
+          <div class="w-px h-5 bg-gray-200 mx-2"></div>
+          <a href="./contact.html" class="ml-1 inline-flex h-9 px-5 items-center rounded-full bg-gray-900 text-white text-sm font-medium hover:bg-gray-800 transition-colors no-underline">
+            Get in Touch
+          </a>
+        </nav>
+    
+        <button id="mobile-menu-btn" class="md:hidden relative w-10 h-10 flex items-center justify-center rounded-lg text-gray-600 hover:bg-gray-100 transition-colors" aria-label="Toggle menu">
+          <svg id="menu-icon-open" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M3 6h14M3 10h14M3 14h14" />
+          </svg>
+          <svg id="menu-icon-close" class="hidden" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M5 5l10 10M15 5L5 15" />
+          </svg>
+        </button>
+      </div>
+    
+      <nav id="mobile-menu" class="hidden md:hidden border-t border-gray-100/50 bg-white/80 backdrop-blur-xl px-6 py-4 space-y-1 mobile-menu-enter" style="backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);">
+        <a href="./index.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium transition-colors no-underline text-gray-900 bg-gray-100/70">
+          Home
+        </a>
+        <a href="./about.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium transition-colors no-underline text-gray-500 hover:text-gray-900 hover:bg-gray-50">
+          About
+        </a>
+        <a href="./contact.html" class="block px-3 py-2.5 rounded-lg text-sm font-medium transition-colors no-underline text-gray-500 hover:text-gray-900 hover:bg-gray-50">
+          Contact
+        </a>
+        <div class="pt-2">
+          <a href="./contact.html" class="block w-full text-center py-2.5 rounded-full bg-gray-900 text-white text-sm font-medium hover:bg-gray-800 transition-colors no-underline">
+            Get in Touch
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-1">
+      <div>
+  <!-- Hero (centered, full viewport) -->
+  <section class="relative overflow-hidden min-h-[100vh] flex items-center">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-20%,rgba(124,58,237,0.08),transparent)]"></div>
+    <div class="absolute inset-0 overflow-hidden pointer-events-none hidden md:block" aria-hidden="true">
+      <svg class="absolute -top-32 -right-32 w-[700px] h-[700px] animate-blob-float opacity-60" viewBox="0 0 700 700" fill="none">
+        <ellipse cx="350" cy="300" rx="280" ry="240" fill="rgba(124,58,237,0.05)" />
+        <ellipse cx="320" cy="360" rx="200" ry="180" fill="rgba(124,58,237,0.03)" />
+      </svg>
+      <svg class="absolute -bottom-40 -left-24 w-[500px] h-[500px] animate-blob-float-reverse opacity-50" viewBox="0 0 500 500" fill="none">
+        <ellipse cx="250" cy="250" rx="220" ry="180" fill="rgba(124,58,237,0.04)" />
+      </svg>
+    </div>
+    
+    <div class="absolute inset-0 pointer-events-none opacity-[0.3]" aria-hidden="true">
+      <svg width="100%" height="100%">
+        <defs>
+          <pattern id="hero-dots-home" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+            <circle cx="1" cy="1" r="0.7" fill="rgba(124,58,237,0.25)" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#hero-dots-home)" />
+      </svg>
+    </div>
+    
+    <div class="relative max-w-3xl mx-auto px-6 text-center w-full">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-950 tracking-[-0.02em] leading-[1.08]" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+        Transform Your Business with Technology Solutions
+      </h1>
+      <p class="mt-6 text-lg md:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
+        Empowering enterprises to optimize, scale, and innovate through tailored IT consulting and services.
+      </p>
+      <div class="mt-8">
+        <a href="./contact.html" class="inline-flex h-12 px-8 items-center rounded-full bg-gray-900 text-white text-sm font-semibold transition-all hover:ring-2 hover:ring-gray-900/10 hover:ring-offset-2 no-underline">
+          Get Started
+          <svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who We Are -->
+  
+  
+  <div class="relative h-px w-full max-w-5xl mx-auto px-6">
+    <svg class="w-full h-[1px]" preserveAspectRatio="none" viewBox="0 0 1200 1">
+      <line x1="0" y1="0.5" x2="1200" y2="0.5" stroke="rgba(124,58,237,0.12)" stroke-width="1" stroke-dasharray="8 6" class="animate-dash-flow" />
+    </svg>
+  </div>
+  <div class="sr-hidden" data-sr-direction="up">
+    <section class="py-20 md:py-28 px-6" style="background: rgba(249,250,251,0.5);">
+      <div class="max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+          <div>
+            <span class="text-xs font-semibold text-violet-600 uppercase tracking-widest">
+              About Us
+            </span>
+            <h2 class="mt-3 text-3xl md:text-4xl font-extrabold text-gray-950 tracking-tight" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+              Who We Are
+            </h2>
+            <p class="mt-5 text-lg text-gray-600 leading-relaxed">
+              KL Consultancies is dedicated to driving business growth through technology. We offer customized IT consulting and solutions for modern enterprises.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-3">
+            <span class="inline-flex items-center gap-2.5 px-5 py-3 rounded-xl text-sm font-medium text-gray-700 bg-violet-50 border border-violet-200">
+              <svg class="text-violet-500 shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Client-Centric Approach
+            </span>
+            <span class="inline-flex items-center gap-2.5 px-5 py-3 rounded-xl text-sm font-medium text-gray-700 bg-white border border-gray-200">
+              <svg class="text-violet-500 shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Innovative Solutions
+            </span>
+            <span class="inline-flex items-center gap-2.5 px-5 py-3 rounded-xl text-sm font-medium text-gray-700 bg-white border border-gray-200">
+              <svg class="text-violet-500 shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Scalable Technology
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Features -->
+  <section class="py-20 md:py-28 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="sr-hidden" data-sr-direction="up">
+        <div class="mb-14">
+          <span class="text-xs font-semibold text-gray-400 uppercase tracking-widest">What We Offer</span>
+          <h2 class="mt-3 text-3xl md:text-4xl font-extrabold text-gray-950 tracking-tight" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+            Services &amp; Expertise
+          </h2>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="0">
+          <div class="group bg-white rounded-2xl p-7 border border-gray-100 hover:border-violet-200 hover:shadow-lg transition-all duration-300 h-full" style="hover:box-shadow: 0 10px 15px -3px rgba(139,92,246,0.05);">
+            <div class="w-11 h-11 rounded-xl bg-violet-50 flex items-center justify-center mb-5 group-hover:bg-violet-100 transition-colors">
+              <span class="text-violet-600"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">End-to-End IT Consulting</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Comprehensive consulting services that align technology with your business goals.</p>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="80">
+          <div class="group bg-white rounded-2xl p-7 border border-gray-100 hover:border-violet-200 hover:shadow-lg transition-all duration-300 h-full" style="hover:box-shadow: 0 10px 15px -3px rgba(139,92,246,0.05);">
+            <div class="w-11 h-11 rounded-xl bg-violet-50 flex items-center justify-center mb-5 group-hover:bg-violet-100 transition-colors">
+              <span class="text-violet-600"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Custom Software Development</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Tailored software solutions to meet your unique business needs and challenges.</p>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="160">
+          <div class="group bg-white rounded-2xl p-7 border border-gray-100 hover:border-violet-200 hover:shadow-lg transition-all duration-300 h-full" style="hover:box-shadow: 0 10px 15px -3px rgba(139,92,246,0.05);">
+            <div class="w-11 h-11 rounded-xl bg-violet-50 flex items-center justify-center mb-5 group-hover:bg-violet-100 transition-colors">
+              <span class="text-violet-600"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Cloud Integration Services</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Seamless cloud solutions to enhance collaboration and data accessibility.</p>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="240">
+          <div class="group bg-white rounded-2xl p-7 border border-gray-100 hover:border-violet-200 hover:shadow-lg transition-all duration-300 h-full" style="hover:box-shadow: 0 10px 15px -3px rgba(139,92,246,0.05);">
+            <div class="w-11 h-11 rounded-xl bg-violet-50 flex items-center justify-center mb-5 group-hover:bg-violet-100 transition-colors">
+              <span class="text-violet-600"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Digital Transformation Experts</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Guiding businesses through successful digital transformation initiatives.</p>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="320">
+          <div class="group bg-white rounded-2xl p-7 border border-gray-100 hover:border-violet-200 hover:shadow-lg transition-all duration-300 h-full" style="hover:box-shadow: 0 10px 15px -3px rgba(139,92,246,0.05);">
+            <div class="w-11 h-11 rounded-xl bg-violet-50 flex items-center justify-center mb-5 group-hover:bg-violet-100 transition-colors">
+              <span class="text-violet-600"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></span>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">IT Project Management</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Expert management to ensure your IT projects are delivered on time and within budget.</p>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="400">
+          <div class="group bg-white rounded-2xl p-7 border border-gray-100 hover:border-violet-200 hover:shadow-lg transition-all duration-300 h-full" style="hover:box-shadow: 0 10px 15px -3px rgba(139,92,246,0.05);">
+            <div class="w-11 h-11 rounded-xl bg-violet-50 flex items-center justify-center mb-5 group-hover:bg-violet-100 transition-colors">
+              <span class="text-violet-600"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+            </div>
+            <h3 class="font-bold text-gray-900 mb-2" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">Operational Efficiency</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">Optimizing workflows and processes to boost productivity and reduce costs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="py-20 md:py-28 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="0">
+          <div class="bg-white rounded-2xl p-6 md:p-8 text-center border border-gray-100">
+            <div class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+              15+
+            </div>
+            <div class="mt-2 text-sm text-gray-500 font-medium">Years Experience</div>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="120">
+          <div class="bg-white rounded-2xl p-6 md:p-8 text-center border border-gray-100">
+            <div class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+              1000+
+            </div>
+            <div class="mt-2 text-sm text-gray-500 font-medium">Successful Projects</div>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="240">
+          <div class="bg-white rounded-2xl p-6 md:p-8 text-center border border-gray-100">
+            <div class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+              95%
+            </div>
+            <div class="mt-2 text-sm text-gray-500 font-medium">Client Retention Rate</div>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="360">
+          <div class="bg-white rounded-2xl p-6 md:p-8 text-center border border-gray-100">
+            <div class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+              24/7
+            </div>
+            <div class="mt-2 text-sm text-gray-500 font-medium">Dedicated Support</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  <div class="relative h-px w-full max-w-5xl mx-auto px-6">
+    <svg class="w-full h-[1px]" preserveAspectRatio="none" viewBox="0 0 1200 1">
+      <line x1="0" y1="0.5" x2="1200" y2="0.5" stroke="rgba(124,58,237,0.12)" stroke-width="1" stroke-dasharray="8 6" class="animate-dash-flow" />
+    </svg>
+  </div>
+
+  <!-- Testimonials -->
+  <section class="py-20 md:py-28 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="sr-hidden" data-sr-direction="up">
+        <div class="mb-14">
+          <span class="text-xs font-semibold text-gray-400 uppercase tracking-widest">Testimonials</span>
+          <h2 class="mt-3 text-3xl md:text-4xl font-extrabold text-gray-950 tracking-tight" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+            What Our Clients Say
+          </h2>
+        </div>
+      </div>
+
+      <!-- Featured testimonial -->
+      <div class="sr-hidden" data-sr-direction="up">
+        <div class="border-l-4 border-violet-200 pl-6 md:pl-8 mb-10">
+          <span class="text-violet-200"><svg class="mb-4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3z"/></svg></span>
+          <p class="text-xl md:text-2xl font-medium text-gray-800 leading-relaxed italic" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+            &ldquo;KL Consultancies transformed our IT strategy, making us more agile and competitive in the market.&rdquo;
+          </p>
+          <div class="flex items-center gap-3 mt-6">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-br from-violet-500 to-violet-600 flex items-center justify-center text-white text-sm font-bold shrink-0">
+              LJ
+            </div>
+            <div>
+              <div class="text-sm font-semibold text-gray-900">Lisa Johnson</div>
+              <div class="text-xs text-gray-500">CEO at Tech Innovators</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Remaining testimonials -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="100">
+          <div class="bg-white rounded-2xl p-7 border border-gray-100 flex flex-col h-full">
+            <p class="text-gray-600 leading-relaxed flex-1">&ldquo;Their team is knowledgeable and dedicated. They helped us streamline our operations significantly.&rdquo;</p>
+            <div class="flex items-center gap-3 mt-6 pt-5 border-t border-gray-100">
+              <div class="w-9 h-9 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center text-white text-xs font-bold shrink-0">
+                MS
+              </div>
+              <div>
+                <div class="text-sm font-semibold text-gray-900">Michael Smith</div>
+                <div class="text-xs text-gray-500">CTO at Digital Solutions</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sr-hidden" data-sr-direction="up" data-sr-delay="200">
+          <div class="bg-white rounded-2xl p-7 border border-gray-100 flex flex-col h-full">
+            <p class="text-gray-600 leading-relaxed flex-1">&ldquo;Working with KL Consultancies has been a game changer for our business. Highly recommend them!&rdquo;</p>
+            <div class="flex items-center gap-3 mt-6 pt-5 border-t border-gray-100">
+              <div class="w-9 h-9 rounded-full bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center text-white text-xs font-bold shrink-0">
+                SB
+              </div>
+              <div>
+                <div class="text-sm font-semibold text-gray-900">Sarah Brown</div>
+                <div class="text-xs text-gray-500">Operations Manager at Future Tech</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 md:py-20 px-4 md:px-8">
+    <div class="sr-hidden" data-sr-direction="scale">
+      <div class="bg-gradient-to-br from-gray-900 via-gray-900 to-violet-950 rounded-3xl px-8 py-16 md:px-16 md:py-20 text-center">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight max-w-2xl mx-auto" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+          Ready to Elevate Your Business?
+        </h2>
+        <p class="mt-5 text-gray-400 leading-relaxed max-w-xl mx-auto text-lg">
+          Join countless satisfied clients who have transformed their operations through our innovative solutions.
+        </p>
+        <div class="mt-10">
+          <a href="./contact.html" class="inline-flex h-13 px-10 items-center rounded-full bg-white text-gray-900 text-sm font-semibold transition-all hover:ring-2 hover:ring-white/20 hover:ring-offset-2 hover:ring-offset-gray-900 no-underline" style="height: 3.25rem;">
+            Contact Us
+            <svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+    </main>
+    <footer class="bg-gradient-to-b from-gray-900 to-gray-950 text-gray-400">
+      <div class="max-w-6xl mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+          <!-- Brand -->
+          <div class="sm:col-span-2 lg:col-span-1 sr-hidden" data-sr-direction="up">
+            <div class="flex items-center gap-2.5 mb-4">
+              <div class="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold" style="background: rgba(139, 92, 246, 0.2); color: white;">
+                K
+              </div>
+              <span class="font-bold text-white text-[15px]" style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">KL Consultancies</span>
+            </div>
+          </div>
+    
+          <!-- Pages -->
+          <div class="sr-hidden" data-sr-direction="up" data-sr-delay="100">
+            <h4 class="text-xs font-semibold text-white uppercase tracking-wider mb-4">Pages</h4>
+            <ul class="space-y-2.5 list-none p-0 m-0">
+              <li><a href="./index.html" class="text-sm text-gray-400 hover:text-white transition-colors no-underline">Home</a></li>
+              <li><a href="./about.html" class="text-sm text-gray-400 hover:text-white transition-colors no-underline">About Us</a></li>
+              <li><a href="./contact.html" class="text-sm text-gray-400 hover:text-white transition-colors no-underline">Contact Us</a></li>
+            </ul>
+          </div>
+    
+          <!-- Contact -->
+          <div class="sr-hidden" data-sr-direction="up" data-sr-delay="200">
+            <h4 class="text-xs font-semibold text-white uppercase tracking-wider mb-4">Contact</h4>
+            <ul class="space-y-3 list-none p-0 m-0">
+              <li>
+                <a href="mailto:kalplathia101@gmail.com" class="flex items-start gap-2.5 text-sm text-gray-400 hover:text-white transition-colors no-underline">
+                  <svg class="mt-0.5 shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>kalplathia101@gmail.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:9727373866" class="flex items-start gap-2.5 text-sm text-gray-400 hover:text-white transition-colors no-underline">
+                  <svg class="mt-0.5 shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>9727373866
+                </a>
+              </li>
+            </ul>
+          </div>
+    
+          <!-- Legal -->
+          <div class="sr-hidden" data-sr-direction="up" data-sr-delay="300">
+            <h4 class="text-xs font-semibold text-white uppercase tracking-wider mb-4">Legal</h4>
+            <ul class="space-y-2.5 list-none p-0 m-0">
+              <li><a href="./privacy.html" class="text-sm text-gray-400 hover:text-white transition-colors no-underline">Privacy Policy</a></li>
+              <li><a href="./terms.html" class="text-sm text-gray-400 hover:text-white transition-colors no-underline">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+          <span>&copy; 2026 KL Consultancies. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Scroll reveal
+    (function() {
+      var els = document.querySelectorAll('.sr-hidden');
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var el = entry.target;
+            var delay = parseInt(el.getAttribute('data-sr-delay') || '0', 10);
+            if (delay > 0) {
+              setTimeout(function() { el.classList.add('sr-visible'); }, delay);
+            } else {
+              el.classList.add('sr-visible');
+            }
+            observer.unobserve(el);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+      els.forEach(function(el) { observer.observe(el); });
+    })();
+
+    // Header scroll detection
+    (function() {
+      var header = document.getElementById('site-header');
+      if (!header) return;
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 8) {
+          header.classList.add('header-scrolled');
+        } else {
+          header.classList.remove('header-scrolled');
+        }
+      }, { passive: true });
+    })();
+
+    // Mobile menu toggle
+    (function() {
+      var btn = document.getElementById('mobile-menu-btn');
+      var menu = document.getElementById('mobile-menu');
+      var iconOpen = document.getElementById('menu-icon-open');
+      var iconClose = document.getElementById('menu-icon-close');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', function() {
+        var isHidden = menu.classList.contains('hidden');
+        menu.classList.toggle('hidden');
+        if (iconOpen && iconClose) {
+          iconOpen.classList.toggle('hidden');
+          iconClose.classList.toggle('hidden');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
